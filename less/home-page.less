@@ -57,17 +57,22 @@
         margin-bottom: 26px;
       }
 
-      .btn {
-        border: 1px solid black;
-        width: 20%;
-        height:10%;
-        text-align: center;
-        padding-top: 2%;
-        background-color: #22283A ;
-        color: whitesmoke;
-        font-size: 15px;
-        border-radius:25px;
+      .btn{
+        button{
+         color: whitesmoke;
+         background-color: @button-color;
+         border-radius: 25px;
+         width: 95px;
+         height:50px;
+         font-size: 15px;
+         
+        }
+        button:hover {
+          color:@button-color;
+          background-color: whitesmoke;
+        }
       }
+        
     }
 
     .walk-img {
@@ -79,6 +84,17 @@
         height: auto;
         border-radius: 2px;
       }
+
     }
   }
-}// home
+  
+    }
+  
+    @media screen and (max-width: 500px) {
+      html body {
+        
+
+          
+      }
+      
+    }

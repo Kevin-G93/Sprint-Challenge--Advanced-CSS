@@ -168,16 +168,17 @@ table {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
-.home .walk .walk-text .btn {
-  border: 1px solid black;
-  width: 20%;
-  height: 10%;
-  text-align: center;
-  padding-top: 2%;
-  background-color: #22283A;
+.home .walk .walk-text .btn button {
   color: whitesmoke;
-  font-size: 15px;
+  background-color: #22283A;
   border-radius: 25px;
+  width: 95px;
+  height: 50px;
+  font-size: 15px;
+}
+.home .walk .walk-text .btn button:hover {
+  color: #22283A;
+  background-color: whitesmoke;
 }
 .home .walk .walk-img {
   width: 46%;
@@ -238,10 +239,12 @@ body .nav-title {
   flex-direction: column;
   text-align: center;
   padding-bottom: 5%;
-  word-spacing: 15px;
+}
+body .nav-title .nav-header {
+  margin-top: 2%;
 }
 body .nav-title a {
   text-decoration: none;
-  color: black;
   font-size: 25px;
+  color: black;
 }
